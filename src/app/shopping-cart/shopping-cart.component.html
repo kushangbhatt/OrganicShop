@@ -1,0 +1,34 @@
+<p>
+  shopping Cart
+</p>
+<ng-container>
+<table>
+  <thead>
+    <tr>
+      <th>
+        Product
+      </th>
+      <th>
+        Quantity
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let i of prod">
+      <td>
+        {{i.product.value.title}}
+      </td>
+      <td>
+        {{i.quantity}}
+      </td>
+      <td>
+        {{i.product.value.price}}
+      </td>
+    </tr>
+  </tbody>
+
+</table>
+</ng-container>

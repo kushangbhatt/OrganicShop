@@ -10,4 +10,10 @@
     "test.ts",
     "**/*.spec.ts"
   ]
+  // "module": {
+  //   "loaders":[
+  //     "/(png|woff|woff2|eot|ttf|svg)$/",
+  //     "url-loader?limit=100000"
+  //   ]
+  // }
 }
